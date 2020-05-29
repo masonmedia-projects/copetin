@@ -4,4 +4,4 @@ This project was a website mockup-makeover for Copetín, the now defunct gourmet
 
 The site was built with HTML5, CSS3, Bootstrap 3, Flexbox, and Javascript. It features a responsive one-page layout with smooth anchor scrolling menu, image carousel, full restaurant menu presentation, Open Table reservation API, social media integration, hours and contact information, custom font, with branding and colour themes extended creatively throughout. While the project didn't move forward, it was a huge improvement on Copetin's existing site and was instructive in designing for the restaurant industry and exploring the Open Table API.
 
-###### See the live site [here](http://copetin.andrewmasonmedia.com)
+#### See the live site [here](http://copetin.andrewmasonmedia.com)
