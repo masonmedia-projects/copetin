@@ -1,0 +1,1237 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/* ==========================================================================
+    Mason M3dia
+    A website design for Copetin
+    Design & Development by Andrew Mason + Mason Media
+    andrewmasonmedia.com
+    Copyright 2017
+    main.css
+   ========================================================================== */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/*====== global ======*/
+
+h1,
+h2, 
+h3, 
+h4, 
+h5 {
+    font-family: Futura, Cabin Sketch, cursive, helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+p {
+    font-family: garamond, georgia, serif;
+    font-size: 17px;
+}
+
+
+/*====== lines / hr ======*/
+
+.line {
+    margin: 20px 0;
+    background: lightgrey;
+    background: rgba(255,255,255,0.2);
+    height: 1.1px;
+    width: 100%;
+}
+
+.line-half {
+    margin: 20px 0;
+    background: lightgrey;
+    background: rgba(255,255,255,0.2);
+    height: 1.1px;
+    width: 50%;
+}
+
+
+/*====== buttons ======*/
+
+/*#about .btn.btn-default.btn-lg,*/
+/*#about .btn.btn-default.btn-lg:active,*/
+/*#about .btn.btn-default.btn-lg:focus {*/
+/*    border: 1px solid #fff;*/
+/*    border-radius: 0;*/
+/*    background: transparent;*/
+/*    color: #fff;*/
+/*    margin: 10px 0;*/
+/*    -webkit-transition: all .3s ease;*/
+/*    -o-transition: all .3s ease;*/
+/*    transition: all .3s ease;*/
+/*}*/
+
+/*#about .btn.btn-default.btn-lg:hover {*/
+/*    border: 1px solid #fff;*/
+/*    border-radius: 0;*/
+/*    background: #fff;*/
+/*    color: rgb(0,29,51);*/
+/*}*/
+
+
+/*====== nav ======*/
+
+nav {
+    font-family: Avenir, Cabin Sketch, cursive, Saira Extra Condensed, helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 0 0 10px #000;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* add padding to space nav li links */
+.navbar ul li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ .navbar.navbar-default {
+    margin-bottom: 0;
+    background-color: transparent;
+    z-index: 9999;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 0;
+}
+
+
+/* navbar links, brand, menu icon color/size/bg changes on hover */
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    font-size: 20px !important;
+    text-shadow: 0 0 5px rgb(0,29,51), 0 0 10px rgb(0,29,51);
+    padding-top: 40px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+/*.navbar {*/
+/*     background: linear-gradient(to right, rgba(0,29,51, 0), rgba(0,29,51, 0), rgba(0,29,51,0.5), rgba(0,29,51,1));*/
+/*}*/
+
+
+/* navbar menu links - align-right in mobile dropdown + set font-family */
+
+.navbar li a {
+    text-align: right;
+    transition: all .2s ease;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: rgb(0,29,51) !important;
+    background-color: #fff !important;
+    background-color: rgba(184, 134, 11, 0.9) !important;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+
+/* navbar change color on scroll */
+
+
+.navbar.scrolled, .navbar li a.scrolled {
+  background: linear-gradient(to right, rgba(0,29,51, 0), rgba(0,29,51, 0), rgba(0,29,51,0.5), rgba(0,29,51,1)) !important;
+  -webkit-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+
+/*====== mobile menu icon ======*/
+
+
+/* individual menu bar color - KEY - hamburger menu "color" (span, .icon-bar) is controlled by "background", not "color" */
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+/* positioning and css of mobile menu (now an .fa) */
+
+.navbar-default button.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 7px 10px;
+    margin-top: 12px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    color: goldenrod;
+    background-color: none;
+    background-image: none;
+    border: 2px solid goldenrod;
+    border-color: goldenrod;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 5px #000;
+            box-shadow: 0 0 5px #000;
+    text-shadow: 0 0 2px #000;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-default button.navbar-toggle:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+/* Remove "active" background color on menu icon after clicking */
+
+.navbar-default button.navbar-toggle:focus,
+.navbar-default button.navbar-toggle:active {
+    background-color: transparent;
+}
+
+
+/*====== containers ======*/
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+}
+
+.flex-item, .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;    
+}
+
+
+/*====== container and item heights ======*/
+
+.min-50 {
+    min-height: 50vh;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+
+/*====== col flex-sizes ======*/
+
+.flex-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.flex-2 {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+}
+
+.flex-3 {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+}
+
+
+/*====== container or item padding ======*/
+
+.padding {
+    padding: 30px 20px;
+}
+
+.padding-col {
+    padding: 30px 40px;
+}
+
+
+/*====== container or item margin ======*/
+
+.margin {
+    padding: 5px;
+}
+
+
+/*====== alignment ======*/
+
+.align-center {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.align-left {
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.align-right {
+    text-align: right;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.align-bottom {
+    text-align: left;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;   
+}
+
+.align-center-bottom {
+    text-align: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+
+
+/*====== bg colors ======*/
+
+.bg-navy {
+    background: rgb(0,29,51);
+}
+
+
+/*====== bg images ======*/
+
+
+/*====== carousel ======*/
+
+.bg-copetin {
+    background: url(/img/copetin-carousel-banner-og.jpg) center right no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-bar {
+    background: url(/img/copetin-carousel-bar.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-ingredients {
+    background: url(/img/copetin-ingredients.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-dish {
+    background: url(/img/copetin-carousel-dish.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/*====== site branding carousel logo ======*/
+
+
+.site-logo {
+    height: 150px;
+    width: 150px;
+/*    border: 3px solid goldenrod;*/
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.section-logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.media-object {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+/*====== divider images ======*/
+
+
+.bg-copetin-2 {
+    background: url(/img/copetin-dish-menu.jpg) 100% 35% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-copetin-bar {
+    background: url(/img/copetin-bar.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/*
+.bg-copetin-street {
+    background: url(/img/copetin-street.jpg) center no-repeat;
+    background-size: cover;
+    filter: saturate(800%);
+    background-attachment: fixed;
+}
+*/
+
+.bg-copetin-street {
+    background: url(/img/copetin-street-og.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-oysters {
+    background: url(/img/copetin-oysters.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg-crostini {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))), url(/img/copetin-crostini.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/copetin-crostini.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/copetin-crostini.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/copetin-crostini.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+/*====== carousel ======*/
+
+/* carousel header text (removed) */
+/*
+#myCarousel .text-wrap {
+    position: relative;
+    top: 30vh;
+    border-left: 5px solid #fff;
+    padding-left: 20px;
+}
+*/
+
+/*
+#myCarousel h1 {
+    font-family: Saira Extra Condensed;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+    line-height: 90%;
+    margin: 0 0 10px;
+    text-shadow: 0 0 20px #000;  
+}
+
+#myCarousel h1 span {
+    color: #fff;
+    vertical-align: baseline;
+    font-size: 15vmin;
+}
+
+#myCarousel h1,
+#divider-3 h1 {
+    font-size: 18vmin;
+}
+*/
+
+
+/* carousel fade */
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+/* carousel sizing */
+
+.carousel-inner .item {
+    padding: 30px 20px;
+    height: 100vh;
+    max-width: 100%;
+}
+
+
+
+/*====== about section ======*/
+
+.bg-claudio {
+    background: url(/img/copetin-claudio-aprile.jpg) 90% center no-repeat;
+    background-size: cover;
+}
+
+#about h1, h1 span.small, #about p, #about .btn,
+#lunch h1, #lunch h2, #lunch p,
+#dinner h1, #dinner h2, #dinner p,
+#lounge h1, #lounge h2, #lounge p,
+#patio h1, #patio h2, #patio h3, #patio p,
+#contact h1, #contact h2, #contact h3, #contact p {
+    font-family: Avenir, Cabin Sketch, cursive, 'Permanent Marker', cursive;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+#about .btn {
+    background: transparent;
+    color: #fff; 
+    -webkit-transition: all .3s ease; 
+    -o-transition: all .3s ease; 
+    transition: all .3s ease;
+    text-shadow: none;
+}
+
+#about .btn:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    color: rgba(0,29,51, 0.8); 
+}
+
+/*====== lunch ======*/
+
+#lunch .flex-item,
+#dinner .flex-item,
+#lounge .flex-item,
+#patio .flex-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.bg-lunch {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(/img/copetin-lunch.jpg) bottom no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-lunch.jpg) bottom no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-lunch.jpg) bottom no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-lunch.jpg) bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrap {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.wrap p {
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+
+/*====== dinner ======*/
+
+.bg-dinner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(/img/copetin-dinner.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-dinner.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-dinner.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-dinner.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*====== lounge ======*/
+
+#dinner .flex-item,
+#lunch .flex-item,
+#lounge .flex-item,
+#patio .flex-item {
+    padding-top: 0;
+}
+
+.line-height {
+    line-height: 207%;
+}
+
+.bg-lounge {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(/img/copetin-cocktail.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-cocktail.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-cocktail.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-cocktail.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*====== patio ======*/
+
+.bg-patio {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(/img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(/img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*====== contact ======*/
+
+.bg-contact {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))), url(/img/copetin-contact.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/copetin-contact.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/copetin-contact.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/copetin-contact.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact .container-fluid {
+    padding: 50px 15px 0;
+    margin-bottom: 0;
+}
+
+#contact .flex-item {
+    padding-bottom: 0;
+}
+
+#contact .col-sm-4 {
+    padding: 10px 20px;
+}
+
+
+#contact h2 {
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+#contact h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#contact .line {
+    margin: 10px 0;
+}
+
+.copetin-footer-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.row.border {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 15px;
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/* icons */
+
+#contact .fa {
+    color: #fff;
+    font-size: 6vmin;
+    text-shadow: 0 0 20px #000;
+    margin: 10px;
+    will-change: transform;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#contact .fa:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    text-shadow: none;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+#contact .fa-chevron-up {
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    font-size: 16px;
+    float: right;
+    margin: 0;
+    border: 2px solid #fff;
+    padding: 15px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#contact .fa-chevron-up:hover {
+    background: #fff;
+    color: rgb(0,29,51);
+}
+
+#contact p a {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#contact p a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-logo {
+    height: auto;
+    width: 200px;
+    margin: 10px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 768px){
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    }   
+    
+/* remove added padding to space nav li links */
+.navbar ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+#lounge .flex-item, #patio .flex-item {
+    text-align: left;
+    }  
+    
+.bg-claudio {
+    min-height: 50vh;
+    }
+}
+    
+
+@media (max-width: 600px){
+    
+.navbar.scrolled, .navbar li a.scrolled {
+    background: linear-gradient(to right, rgba(0,29,51, 0), rgba(0,29,51, 0), rgba(0,29,51, 0), rgba(0,29,51,0.5), rgba(0,29,51,1)) !important;
+    -webkit-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.carousel-inner .item {
+    padding: 0;
+}
+    
+.site-logo {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#about h1,
+#lunch h1,
+#dinner h1,
+#lounge h1,
+#patio h1,
+#contact h1 {
+    font-size: 27px;
+}
+
+#contact h3 {
+    font-size: 20px;
+}
+    
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    }
+    
+    
+/* re-position and slightly resize first slider image to focus on logo */
+.bg-copetin {
+    background: url(/img/copetin-banner-mobile.jpg) center no-repeat; 
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/* re-move background-attachment fixed */
+
+.bg-bar {
+    background-attachment: scroll;
+}
+
+.bg-ingredients {
+    background-attachment: scroll;
+}
+
+.bg-dish {
+    background-attachment: scroll;
+}
+
+.bg-claudio {
+    background: url(/img/copetin-claudio-mobile.jpg) 80% 40% no-repeat; 
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+    
+.bg-copetin-2 {
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+
+.bg-copetin-bar {
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+
+.bg-copetin-street {
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+
+.bg-oysters {
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+
+.bg-crostini {
+    background-attachment: scroll;
+    min-height: 50vh;
+}
+    
+.bg-lunch {
+    background-attachment: scroll;
+}
+    
+.bg-dinner {
+    background-attachment: scroll;
+}
+
+.bg-lounge {
+    background-attachment: scroll;
+}
+
+.bg-patio {
+    background-attachment: scroll;
+}
+
+.bg-contact {
+    background-attachment: scroll;
+}
+
+    
+#myCarousel .text-wrap {
+    top: 45vh;
+    padding-left: 15px;
+}
+
+#contact .padding-col {
+    padding: 20px;
+}
+    
+/* remove fixed width to icons which threw off spacing   */
+.row.border {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 15px;
+    width: auto;
+    margin: 10px 30px;
+}
+    
+#contact .fa-chevron-up {
+    position: static;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    float: none;
+    margin: 0 0 15px;
+    border: 2px solid #fff;
+    padding: 15px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    }
+/* end media queries */
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (-o-min-device-pixel-ratio: 5/4),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        -webkit-box-shadow: none !important;
+                box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
