@@ -439,25 +439,25 @@ nav {
 /*====== carousel ======*/
 
 .bg-copetin {
-    background: url(img/copetin-carousel-banner-og.jpg) center right no-repeat;
+    background: url(./img/copetin-carousel-banner-og.jpg) center right no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .bg-bar {
-    background: url(img/copetin-carousel-bar.jpg) center no-repeat;
+    background: url(./img/copetin-carousel-bar.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .bg-ingredients {
-    background: url(img/copetin-ingredients.jpg) center no-repeat;
+    background: url(./img/copetin-ingredients.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .bg-dish {
-    background: url(img/copetin-carousel-dish.jpg) center no-repeat;
+    background: url(./img/copetin-carousel-dish.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -492,14 +492,14 @@ nav {
 
 
 .bg-copetin-2 {
-    background: url(img/copetin-dish-menu.jpg) 100% 35% no-repeat;
+    background: url(./img/copetin-dish-menu.jpg) 100% 35% no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
 }
 
 .bg-copetin-bar {
-    background: url(img/copetin-bar.jpg) center no-repeat;
+    background: url(./img/copetin-bar.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -507,7 +507,7 @@ nav {
 
 /*
 .bg-copetin-street {
-    background: url(img/copetin-street.jpg) center no-repeat;
+    background: url(./img/copetin-street.jpg) center no-repeat;
     background-size: cover;
     filter: saturate(800%);
     background-attachment: fixed;
@@ -515,24 +515,24 @@ nav {
 */
 
 .bg-copetin-street {
-    background: url(img/copetin-street-og.jpg) center no-repeat;
+    background: url(./img/copetin-street-og.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
 }
 
 .bg-oysters {
-    background: url(img/copetin-oysters.jpg) center no-repeat;
+    background: url(./img/copetin-oysters.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
 }
 
 .bg-crostini {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))), url(img/copetin-crostini.jpg) center no-repeat;
-    background: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/copetin-crostini.jpg) center no-repeat;
-    background: -o-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/copetin-crostini.jpg) center no-repeat;
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/copetin-crostini.jpg) center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))), url(./img/copetin-crostini.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./img/copetin-crostini.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./img/copetin-crostini.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./img/copetin-crostini.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -640,7 +640,7 @@ nav {
 /*====== about section ======*/
 
 .bg-claudio {
-    background: url(img/copetin-claudio-aprile.jpg) 90% center no-repeat;
+    background: url(./img/copetin-claudio-aprile.jpg) 90% center no-repeat;
     background-size: cover;
 }
 
@@ -688,10 +688,10 @@ nav {
 }
 
 .bg-lunch {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(img/copetin-lunch.jpg) bottom no-repeat;
-    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-lunch.jpg) bottom no-repeat;
-    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-lunch.jpg) bottom no-repeat;
-    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-lunch.jpg) bottom no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(./img/copetin-lunch.jpg) bottom no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-lunch.jpg) bottom no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-lunch.jpg) bottom no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-lunch.jpg) bottom no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -718,10 +718,10 @@ nav {
 /*====== dinner ======*/
 
 .bg-dinner {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(img/copetin-dinner.jpg) center no-repeat;
-    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-dinner.jpg) center no-repeat;
-    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-dinner.jpg) center no-repeat;
-    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-dinner.jpg) center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(./img/copetin-dinner.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-dinner.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-dinner.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-dinner.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -741,10 +741,10 @@ nav {
 }
 
 .bg-lounge {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(img/copetin-cocktail.jpg) center no-repeat;
-    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-cocktail.jpg) center no-repeat;
-    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-cocktail.jpg) center no-repeat;
-    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-cocktail.jpg) center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(./img/copetin-cocktail.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-cocktail.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-cocktail.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-cocktail.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -753,10 +753,10 @@ nav {
 /*====== patio ======*/
 
 .bg-patio {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(img/copetin-tea-smoked-squab.jpg) center no-repeat;
-    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-tea-smoked-squab.jpg) center no-repeat;
-    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-tea-smoked-squab.jpg) center no-repeat;
-    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,29,51,0.8)), to(rgba(0,29,51,0.8))), url(./img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-tea-smoked-squab.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,29,51,0.8), rgba(0,29,51,0.8)), url(./img/copetin-tea-smoked-squab.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -765,10 +765,10 @@ nav {
 /*====== contact ======*/
 
 .bg-contact {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))), url(img/copetin-contact.jpg) center no-repeat;
-    background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/copetin-contact.jpg) center no-repeat;
-    background: -o-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/copetin-contact.jpg) center no-repeat;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/copetin-contact.jpg) center no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))), url(./img/copetin-contact.jpg) center no-repeat;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./img/copetin-contact.jpg) center no-repeat;
+    background: -o-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./img/copetin-contact.jpg) center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./img/copetin-contact.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -956,7 +956,7 @@ nav {
     
 /* re-position and slightly resize first slider image to focus on logo */
 .bg-copetin {
-    background: url(img/copetin-banner-mobile.jpg) center no-repeat; 
+    background: url(./img/copetin-banner-mobile.jpg) center no-repeat; 
     background-size: cover;
     background-attachment: scroll;
 }
@@ -976,7 +976,7 @@ nav {
 }
 
 .bg-claudio {
-    background: url(img/copetin-claudio-mobile.jpg) 80% 40% no-repeat; 
+    background: url(./img/copetin-claudio-mobile.jpg) 80% 40% no-repeat; 
     background-size: cover;
     background-attachment: scroll;
     min-height: 50vh;
